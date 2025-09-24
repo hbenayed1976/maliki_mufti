@@ -1,5 +1,5 @@
 🚀Usage
-streamlit run rag_only_gemini_embeddings_pdf_txt.py
+streamlit run rag_gemini_embeddings.py
 
 
 Then open: http://localhost:8501
