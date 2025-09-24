@@ -25,7 +25,7 @@ It leverages **Retrieval-Augmented Generation (RAG)** with:
 ---
 
 ## 📂 Repository Structure
-├── rag_only_gemini_embeddings_pdf_txt.py # Main Streamlit application
+├── rag_gemini_embeddings.py # Main Streamlit application
 
 ├── fatwa-tounisia.pdf # 
 
