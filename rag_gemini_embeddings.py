@@ -386,13 +386,13 @@ def init_system(embedding_model_name, llm_choice, google_api_key=None):
         
         try:
             llm = ChatGoogleGenerativeAI(
-                model="gemini-2.0-flash-exp",
+                model="gemini-2.5-flash",
                 google_api_key=google_api_key,
                 temperature=0.1,
                 convert_system_message_to_human=True
             )
         except Exception as e:
-            st.warning(f"⚠️ Erreur avec gemini-2.0-flash-exp, fallback vers gemini-1.5-pro: {str(e)}")
+            st.warning(f"⚠️ Erreur avec gemini-2.5-flash, fallback vers gemini-1.5-pro: {str(e)}")
             try:
                 llm = ChatGoogleGenerativeAI(
                     model="gemini-1.5-pro",
