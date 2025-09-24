@@ -26,7 +26,11 @@ It leverages **Retrieval-Augmented Generation (RAG)** with:
 
 ## 📂 Repository Structure
 ├── rag_only_gemini_embeddings_pdf_txt.py # Main Streamlit application
-├── fatwa-tounisia.pdf # Fatwa dataset (not included here)
-├── qa.txt # Q&A dataset (*** separator)
-├── tafri3.pdf # Qur’an dataset (not included here)
+
+├── fatwa-tounisia.pdf # 
+
+├── qa.txt # Q&A dataset 
+
+├── tafri3.pdf # Qur’an dataset 
+
 ├── README.md # Project documentation
