@@ -3,7 +3,7 @@
 This project is a **Streamlit-based application** designed to provide answers to user questions using:
 - 📖 Fatwas (`fatwa-tounisia.pdf`)
 - ❓ Q&A dataset (`qa.txt`)
-- 📜 Qur’an (`tafri3.pdf`)
+- 📜 Qur’an (`tafri3.pdf`) (created by dr. Amir Baklouti)
 
 It leverages **Retrieval-Augmented Generation (RAG)** with:
 - **Embeddings:** AraBERT, MARBERT, multilingual MiniLM
