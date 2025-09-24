@@ -16,9 +16,9 @@ It leverages **Retrieval-Augmented Generation (RAG)** with:
 ## ✨ Features
 - 🔎 **Context-aware Q&A** with Fatwa, Qur’an, and Q&A datasets
 - 📜 **Qur’an verse detection** (with surah & ayah metadata)
-- 🧠 **Multiple embedding models** (AraBERT, MARBERT, MiniLM)
+- 🧠 **Multiple embedding models** for evaluation (AraBERT, MARBERT, MiniLM)
 - 🌐 **Arabic text reshaping** for proper display
-- ⚡ **Gemini LLM integration** (`gemini-2.0-flash-exp` with fallback)
+- ⚡ **Gemini LLM integration** (`gemini-2.5-flash)
 - 📚 **Source attribution** (Fatwa / Qur’an / Q&A) in every answer
 - 💬 **Interactive chat interface** with persistent history
 
